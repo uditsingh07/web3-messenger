@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     
-        <h1>Welcome to App </h1>
+        <h1>Welcome to Application </h1>
         <button onClick={logout}>Logout</button>
     </div>
   )
