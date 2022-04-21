@@ -3,6 +3,7 @@ import Image from "next/image"
 import { useMoralis } from 'react-moralis';
 import Avatar from './Avatar';
 import ChangeUserName from './ChangeUserName';
+import myAvatar from "./myAvatar.jpg"
 
 function HeaderSection() {
   const {user} = useMoralis();
@@ -14,7 +15,7 @@ function HeaderSection() {
             layout = "fill"
             objectFit='cover'
             className="rounded-full "
-            src="https://links.papareact.com/3pi"
+            src={myAvatar}
            />
            
            </div >

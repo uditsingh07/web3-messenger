@@ -18,15 +18,12 @@ export default function Home() {
       </Head>
     
       
-        <div className="max-w-screen=2xl mx-auto">
-        {/* Header */}
+        <div className="max-w-screen-2xl mx-auto pl-36 pr-36">
+        
           <HeaderSection/>
           <Messages />
-        {/* Messages */}
-          </div>
         
-
-        <button onClick={logout}>Logout</button>
+          </div> 
     </div>
   )
 }
